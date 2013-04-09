@@ -1,8 +1,8 @@
 Webapp::Application.routes.draw do
   get "store/index"
 
-  resources :products, path: ''
-
+  resources :products
+  root :to => 'store#index', :as => 'store'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
