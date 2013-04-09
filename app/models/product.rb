@@ -1,5 +1,18 @@
 class Product < ActiveRecord::Base
   default_scope :order => 'title'
+  has_many :line_items
+
+  before_destroy :ensure_not_referenced_by_any_line_item
+
+  # ensure
+  def ensure_not_referenced_by_any_line_item
+  if line_items.count.zero?
+   return true
+  else
+     errors[:base] << "Line Items preset"
+     return false
+  end
+ end
   attr_accessible :description, :image_url, :price, :title
 #  validates_presence_of :title, :description, :price
   validates :title, :description, :price, :presence => true
