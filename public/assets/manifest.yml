@@ -1,15 +1,15 @@
 --- 
-application/index.js: application-553908811aaecf97d1e94a645341d1b5.js
-layouts/application/index.html: layouts/application-1b13569e9620782f423d4cd3ce931750.html
-application/index.css: application-dd2327c7ea3df22fe083cfc0095057ca.css
 rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
-blumblum/index.jpg: blumblum-5e63cd1151db3b6ed72e62e26a0bb65f.jpg
-application.css: application-dd2327c7ea3df22fe083cfc0095057ca.css
 rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
-jquery.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
-blumblum.jpg: blumblum-5e63cd1151db3b6ed72e62e26a0bb65f.jpg
-application.js: application-553908811aaecf97d1e94a645341d1b5.js
-logo.png: logo-a3386665c05a2d82f711a4aaa72d247c.png
-jquery/index.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
-layouts/application.html: layouts/application-1b13569e9620782f423d4cd3ce931750.html
+application/index.js: application-553908811aaecf97d1e94a645341d1b5.js
 logo/index.png: logo-a3386665c05a2d82f711a4aaa72d247c.png
+logo.png: logo-a3386665c05a2d82f711a4aaa72d247c.png
+jquery.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
+layouts/application/index.html: layouts/application-1b13569e9620782f423d4cd3ce931750.html
+blumblum.jpg: blumblum-5e63cd1151db3b6ed72e62e26a0bb65f.jpg
+application.css: application-dd2327c7ea3df22fe083cfc0095057ca.css
+jquery/index.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
+application/index.css: application-dd2327c7ea3df22fe083cfc0095057ca.css
+layouts/application.html: layouts/application-1b13569e9620782f423d4cd3ce931750.html
+blumblum/index.jpg: blumblum-5e63cd1151db3b6ed72e62e26a0bb65f.jpg
+application.js: application-553908811aaecf97d1e94a645341d1b5.js
