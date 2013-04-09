@@ -1,7 +1,7 @@
 Webapp::Application.routes.draw do
   get "store/index"
 
-  resources :products
+  resources :products, path: ''
 
 
   # The priority is based upon order of creation:
