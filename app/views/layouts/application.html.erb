@@ -13,10 +13,16 @@
  </div>
  <div id="columns">
   <div id="side" >
-  <a href="" >Home</a><br />
-  <a href="../faq" >Questions</a><br />
-  <a href="../news" >News</a><br />
-  <a href="../contact" >Contact</a><br />
+   <div id="cart">
+    <%= render @cart %>
+   </div>
+
+<ul>
+ <li> <a href="" >Home</a></li>
+ <li> <a href="../faq" >Questions</a></li>
+ <li> <a href="../news" >News</a></li>
+ <li> <a href="../contact" >Contact</a></li>
+</ul>
  </div>
  <div id="main">
   <%= yield %>
